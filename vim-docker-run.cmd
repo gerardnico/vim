@@ -8,6 +8,6 @@ SET SCRIPT_PATH=%~dp0
 docker run ^
 	--rm ^
 	-it ^
-	-v %cd%:/vim ^
+	-v %cd%:/home/vim/workdir ^
 	gerardnico/vim:latest ^
 	%*
